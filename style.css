@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    height: 130px;
+    padding-top: 25px;
+
+}
+.heading{
+    width: 40%;
+}
+.heading h1{
+    font-weight: 500;
+}
+.heading p{
+    font-size:1.8rem;
+    color: black;
+    font-weight: 300;
+    line-height: 28px;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 7px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.3rem !important;
+    color: black;
+}
+.headerimg{
+    width: 100%;
+    margin: auto;
+    background-image:url(./assets/images/winter.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(213, 209, 209);
+}
+.headertext{
+    font-size: 1.8rem;
+    color: white;
+    text-align: center; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headertext{
+    padding-top: 15vh;
+    line-height: 45px;
+}
+.content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px 155px;
+    background-color: rgb(213, 209, 209);
+}
+.offer{
+    width: 25%;
+}
+.suboffer{
+    width: 75%;
+}
+.suboffer p{
+    font-size: 1.1rem;
+}
+.allimages{
+    background-color: rgb(59, 50, 50);
+}
+.subimages{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.image{
+    max-width: 23%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.image img{
+    width: 100%;
+    height: 140px;
+}
+.image h2{
+    padding: 10px 0px;
+    color: white;
+    font-weight: 400;
+}
+.image p{
+    color: rgb(217, 210, 210);
+    font-weight: 200;
+    padding: 15px 0px 6px 0px;
+}
+.image a{
+    text-decoration: none;
+    color:rgb(105, 231, 212);
+}
+.bggrey{
+    background-color: rgb(213, 209, 209);
+}
+.otherinfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+.myimage{
+    width: 25%;
+    padding-top: 20px;
+}
+.myimage h2{
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(81, 78, 78);
+}
+.myimage img{
+    width: 100%;
+    height: 362px;
+}
+.aboutme{
+    width: 31%;
+    padding: 70px 25px 0px 25px;
+}
+.aboutme p{
+    line-height: 1.5rem;
+    padding-bottom: 13px;
+    color: rgb(51, 48, 48);
+}
+.latestone{
+    width: 22%;
+    padding: 20px 0px;
+    padding-right: 5px;
+}
+.latestone h2{
+    padding-bottom: 15px;
+    color:  rgb(81, 78, 78);
+}
+.latesttwo{
+    width: 22%;
+    padding-left: 5px;
+    padding-top: 67px;
+ }
+.latestone img{
+    width: 100%;
+    height: 119px;
+}
+.latesttwo img{
+    width: 100%;
+    height: 119px;
+}
+.footer{
+    background-color: gray;
+}
+.socialmedia{
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+.fa{
+    font-size: 2.2rem;
+    margin-left: 35px;
+    margin-right: 35px; 
+}
+.fa-pinterest{
+    color:white;
+    background-color: red;
+    padding: 7px;
+}
+.fa-twitter{
+    color:white;
+    background-color:rgb(40, 144, 192);
+    padding: 7px;
+}
+.fa-youtube{
+    color:white;
+    background-color: red;
+    padding: 7px;
+}
+.fa-facebook{
+    color:white;
+    background-color:rgb(37, 32, 191);
+    padding: 7px;
+}
+@media only screen and (max-width:575px) {
+    *{
+        text-align: center;
+    }
+    .header{
+        width: 100%;
+        background-color: rgb(59, 50, 50);
+        padding-top: 18px;
+    }
+    .heading{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .headerimg{
+        background-size: 100%;
+        height: 40vh;
+    }
+    .headertext{
+        font-size: 1.2rem;
+        line-height: 25px;
+        font-weight: bold;
+        padding-top: 45px;
+    }
+    .content{
+        padding: 25px;
+
+    }
+    .offer{
+        width: 100%;
+    }
+    .suboffer{
+        width: 100%;
+    }
+    .image{
+        max-width: 100%;
+    }
+    .myimage{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .aboutme{
+        width: 100%;
+        padding: 25px 20px 0px 20px; 
+    }
+    .aboutme p{
+        line-height: 1.4rem;
+        padding-bottom: 13px;
+    }
+    .latestone{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .latesttwo{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 8px;
+        padding-bottom: 25px;
+    }
+    .latestone img{
+        height: auto;
+    }
+    .latesttwo img{
+        height: auto;
+    }
+    .socialmedia{
+        width: 100%;
+    }
+    .fa{
+        font-size: 1.5rem;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    .heading h1{
+        font-weight: 300;
+        color: white;
+        font-size: x-large;
+        font-weight: 400;
+    }
+    .heading p{
+        color: white;
+        font-size: medium;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .menu{
+        padding-top: 5px;
+    }
+    .menu a{
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+}

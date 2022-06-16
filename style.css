@@ -219,17 +219,19 @@
     }
     .headerimg{
         background-size: 100%;
-        height: 40vh;
+        height: 28vh;
     }
     .headertext{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         line-height: 25px;
         font-weight: bold;
-        padding-top: 45px;
+        padding-top: 30px;
+    }
+    .headertext p{
+        font-weight: 330;
     }
     .content{
-        padding: 25px;
-
+        padding: 5px 25px 25px 25px;
     }
     .offer{
         width: 100%;
@@ -264,9 +266,11 @@
     }
     .latestone img{
         height: auto;
+        padding-bottom: 10px;
     }
     .latesttwo img{
         height: auto;
+        padding-bottom: 10px;
     }
     .socialmedia{
         width: 100%;
